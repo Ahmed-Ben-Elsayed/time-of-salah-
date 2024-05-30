@@ -1,0 +1,70 @@
+body{
+  background-color:#2A231D;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+html{
+  direction: rtl;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  gap: 5px;
+}
+.MuiOutlinedInput-notchedOutline{
+  color: aliceblue;
+  border-color: white!important;
+}.MuiSvgIcon-root{
+  color: aliceblue!important;
+
+}
+p{
+  font-weight: 530;
+}
+
+@media screen  and (max-width:480px) {
+  .app{
+    display: flex;
+    flex-direction: column;
+  }
+  .cards{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+   .card {
+    width: 90%!important;
+    margin: 20px auto;
+  }.sell{
+    width: 80%!important;
+    margin: auto;
+  }
+}
+@media screen  and (min-width:481px) and (max-width:780px)  {
+  .app{
+    display: flex;
+    flex-direction: column;
+  }
+  .cards{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+  }
+   .card {
+    width: 40%!important;
+    margin: 20px auto;
+  }.sell{
+    width: 80%!important;
+    margin: auto;
+  }
+}

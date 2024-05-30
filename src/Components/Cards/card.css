@@ -1,0 +1,45 @@
+
+hr{
+    width: 90%;
+    margin: auto;
+    border: solid 0.5px grey;
+}
+
+.card{
+    margin-top: 30px;
+    width: 19%;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.card p{
+    font-size: 20px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.sell{
+    display: flex;
+    width: 30%;
+    margin: 30px auto;
+    border-color: aliceblue;
+}
+ select{
+    outline: red solid 1px!important;
+    border: red solid 1px!important;
+}
+ .sell #demo-simple-select-label{
+color: white;
+}
+.sell #demo-simple-select{
+    color: rgb(255, 255, 255);
+}
